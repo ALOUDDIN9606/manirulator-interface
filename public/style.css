@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    margin: 0;
+    background-color: #70cd74;
+  }
+
+  #root {
+    width: 70%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 3px rgba(130, 37, 37, 0.56);
+    overflow: hidden;
+  }
+
+  .container {
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  .command-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    justify-items: center;
+    margin: 20px 0;
+  }
+
+  .command-grid div {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ddd;
+  }
+
+  .command-grid .active {
+    background-color: blue;
+  }
+
+  .command-grid .warning {
+    background-color: orange;
+  }
+
+  .command-grid .inactive {
+    background-color: gray;
+  }
+
+  .slider {
+    width: 80%;
+    margin: 20px 0;
+  }
+
+  .timestamp {
+    font-size: 14px;
+    color: #888;
+  }
+  .css-0 {
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .css-1yuhvjn{
+    width: 900px;
+    text-align: center;
+  }
+  .css-1jcfcth{
+    padding-top: 40px;
+  }
+  .MuiContainer-root{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  form{
+    width: 70%;
+  }
+  .MuiButtonBase-root{
+    width: 200px;
+  }
